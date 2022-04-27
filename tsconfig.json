@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/", 
+    "sourceMap": false, 
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "declaration": true, 
+    "declarationDir": "./dist/types/", 
+    "declarationMap": false, 
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es5", 
+    "baseUrl": "./",
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+  },
+}
